@@ -1,0 +1,19 @@
+Week 15 Reflection: Adding Life to the Bakery Website with JavaScript 🚀
+
+This past week, we dove into JavaScript, and it allowed me to elevate the bakery website I’ve been working on. Using the foundations of HTML and CSS from previous classes, I added interactive features to the webpage, such as dynamic buttons and content updates, to make the user experience more engaging.
+
+It was an exciting opportunity to see how JavaScript can breathe life into a static webpage. Below, you’ll find a screenshot of the code I worked on and the bakery website in action. 🍰
+
+This project was not only fun to build but also a great way to put my learning into practice. Looking forward to continuing this journey and adding even more functionality to my future projects!
+
+Dr. ‘Bosun Tijani 
+Somto Akujuruobi 
+3MTT Nigeria 
+IHS Towers 
+NITDA Nigeria 
+
+#My3MTT 
+
+#3MTTAnambra 
+
+#3MTTWeeklyReflection 

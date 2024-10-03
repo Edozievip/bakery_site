@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery & Confectionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bakery & Confectionary</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Delight Bakery, we bake fresh and delicious bread, cakes, and pastries every day. Our goal is to satisfy your sweet cravings with our high-quality, freshly baked goods.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Custom Cakes for all Occasions</li>
+            <li>Fresh Pastries Daily</li>
+            <li>Bread and Rolls</li>
+            <li>Cookies, Muffins, and Donuts</li>
+        </ul>
+    </section>
+
+    <!-- Button to Show/Hide Menu -->
+    <button id="toggleMenu">Show/Hide Menu</button>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul class="imgs">
+            <li><img src="images/cake1.jpeg" alt=""> Chocolate Cake - $10</li>
+            <li><img src="images/full_bread.jpeg" alt=""> Banana Bread - $8</li>
+            <li><img src="images/milky_doughnut.jpeg" alt=""> Milky Doughnut - $12</li>
+            <li><img src="images/peanut1.jpeg" alt=""> Peanut - $5</li>
+        </ul>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="feedbackForm">
+            <label for="feedback">Leave us a feedback:</label>
+            <input type="text" id="feedback" name="feedback" required>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="feedbackMessage"></p>
+    </section>
+
+     <!-- Footer -->
+     <footer>
+        <p>&copy; 2024 Delight Bakery & Confectionery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

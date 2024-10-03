@@ -1,0 +1,150 @@
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffcc00;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff9900;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+p, ul {
+    margin: 10px 0;
+}
+
+/* Flexbox for Service Section */
+#services ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+#services li {
+    flex: 1 1 calc(50% - 15px);
+    background-color: #ffe680;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#services li:hover {
+    background-color: #ffcc00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    bottom: 0px;
+}
+
+/* Hide menu by default */
+#menu {
+    display: none;
+}
+
+/* Menu Section Styling */
+#menu ul.imgs {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+/* Adjust grid layout */
+@media (min-width: 600px) {
+    #menu ul.imgs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    #menu ul.imgs {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#menu ul.imgs li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffe680;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#menu ul.imgs li img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#menu ul.imgs li:hover {
+    background-color: #ffcc00;
+    transform: scale(1.02);
+}
+
+#menu ul.imgs li:hover img {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Feedback form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
